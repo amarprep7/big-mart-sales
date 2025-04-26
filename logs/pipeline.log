@@ -1,0 +1,66 @@
+2025-04-26 19:08:28,052:INFO:Loading training data
+2025-04-26 19:09:08,329:INFO:Loading training data
+2025-04-26 19:09:08,348:INFO:Starting data preprocessing
+2025-04-26 19:09:08,368:INFO:Data preprocessing completed
+2025-04-26 19:09:08,368:INFO:Starting model training
+2025-04-26 19:09:08,368:INFO:Training XGBRegressor for feature importance
+2025-04-26 19:16:51,736:INFO:Loading training data
+2025-04-26 19:16:51,754:INFO:Starting data preprocessing
+2025-04-26 19:16:51,773:INFO:Data preprocessing completed
+2025-04-26 19:16:51,773:INFO:Starting model training
+2025-04-26 19:16:51,773:INFO:Training XGBRegressor for feature importance
+2025-04-26 19:17:00,615:INFO:Best parameters: {'subsample': 1.0, 'reg_lambda': 1, 'reg_alpha': 0.01, 'n_estimators': 100, 'max_depth': 4, 'learning_rate': 0.05, 'gamma': 0.3, 'colsample_bytree': 1.0}
+2025-04-26 19:17:00,652:INFO:Cross-validation R2 scores: [0.60405033 0.58602437 0.57936295 0.61099567 0.60953422]
+2025-04-26 19:17:00,652:INFO:Mean R2 score: 0.5980 (+/- 0.0258)
+2025-04-26 19:17:00,655:INFO:Model saved to /Users/a0k0exo/Desktop/My Files/Assignments/Big-Mart-Sales-Prediction-main/prep2/big_mart_sales/models/model.joblib
+2025-04-26 19:17:00,655:INFO:Top features: ['Outlet_Type', 'Item_MRP', 'Outlet_Establishment_Year', 'Outlet_Size', 'Store_Age_Size', 'Visibility_MRP']
+2025-04-26 19:17:00,658:INFO:Feature importance:
+                      feature  importance
+10                Outlet_Type    0.591614
+5                    Item_MRP    0.136662
+7   Outlet_Establishment_Year    0.103087
+8                 Outlet_Size    0.019527
+12             Store_Age_Size    0.019500
+13             Visibility_MRP    0.018226
+4                   Item_Type    0.016714
+3             Item_Visibility    0.015544
+11           Price_per_Weight    0.014684
+6           Outlet_Identifier    0.014056
+1                 Item_Weight    0.013715
+2            Item_Fat_Content    0.013524
+9        Outlet_Location_Type    0.012856
+0             Item_Identifier    0.010291
+2025-04-26 19:17:00,658:INFO:Mean R2 score: 0.597993506920205
+2025-04-26 20:10:53,749:INFO:Starting data preprocessing
+2025-04-26 20:10:53,763:INFO:Data preprocessing completed
+2025-04-26 20:13:08,562:INFO:Starting data preprocessing
+2025-04-26 20:13:08,578:INFO:Data preprocessing completed
+2025-04-26 20:13:58,455:INFO:Loading training data
+2025-04-26 20:13:58,474:INFO:Starting data preprocessing
+2025-04-26 20:13:58,493:INFO:Data preprocessing completed
+2025-04-26 20:13:58,494:INFO:Starting model training
+2025-04-26 20:13:58,494:INFO:Training XGBRegressor for feature importance
+2025-04-26 20:14:07,358:INFO:Best parameters: {'subsample': 1.0, 'reg_lambda': 1, 'reg_alpha': 0.01, 'n_estimators': 100, 'max_depth': 4, 'learning_rate': 0.05, 'gamma': 0.3, 'colsample_bytree': 1.0}
+2025-04-26 20:14:07,401:INFO:Cross-validation R2 scores: [0.60405033 0.58602437 0.57936295 0.61099567 0.60953422]
+2025-04-26 20:14:07,401:INFO:Mean R2 score: 0.5980 (+/- 0.0258)
+2025-04-26 20:14:07,409:INFO:Model saved to /Users/a0k0exo/Desktop/My Files/Assignments/Big-Mart-Sales-Prediction-main/prep2/big_mart_sales/models/model.joblib
+2025-04-26 20:14:07,409:INFO:Top features: ['Outlet_Type', 'Item_MRP', 'Outlet_Establishment_Year', 'Outlet_Size', 'Store_Age_Size', 'Visibility_MRP']
+2025-04-26 20:14:07,412:INFO:Feature importance:
+                      feature  importance
+10                Outlet_Type    0.591614
+5                    Item_MRP    0.136662
+7   Outlet_Establishment_Year    0.103087
+8                 Outlet_Size    0.019527
+12             Store_Age_Size    0.019500
+13             Visibility_MRP    0.018226
+4                   Item_Type    0.016714
+3             Item_Visibility    0.015544
+11           Price_per_Weight    0.014684
+6           Outlet_Identifier    0.014056
+1                 Item_Weight    0.013715
+2            Item_Fat_Content    0.013524
+9        Outlet_Location_Type    0.012856
+0             Item_Identifier    0.010291
+2025-04-26 20:14:07,412:INFO:Mean R2 score: 0.597993506920205
+2025-04-26 20:14:15,639:INFO:Starting data preprocessing
+2025-04-26 20:14:15,651:INFO:Data preprocessing completed

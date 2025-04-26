@@ -1,0 +1,6 @@
+Outlet_Type
+Item_MRP
+Outlet_Establishment_Year
+Outlet_Size
+Store_Age_Size
+Visibility_MRP
