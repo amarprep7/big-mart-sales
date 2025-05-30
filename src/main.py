@@ -7,7 +7,7 @@ from .config import MODEL_PATH
 from .data_preprocessing import preprocess_data
 
 app = FastAPI()
-
+ 
 # Load model and features at startup
 model = None
 features = None
