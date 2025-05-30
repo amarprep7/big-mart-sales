@@ -7,7 +7,7 @@
 2025-04-26 19:16:51,736:INFO:Loading training data
 2025-04-26 19:16:51,754:INFO:Starting data preprocessing
 2025-04-26 19:16:51,773:INFO:Data preprocessing completed
-2025-04-26 19:16:51,773:INFO:Starting model training
+2025-04-26 19:16:51,773:INFO:Starting model training 
 2025-04-26 19:16:51,773:INFO:Training XGBRegressor for feature importance
 2025-04-26 19:17:00,615:INFO:Best parameters: {'subsample': 1.0, 'reg_lambda': 1, 'reg_alpha': 0.01, 'n_estimators': 100, 'max_depth': 4, 'learning_rate': 0.05, 'gamma': 0.3, 'colsample_bytree': 1.0}
 2025-04-26 19:17:00,652:INFO:Cross-validation R2 scores: [0.60405033 0.58602437 0.57936295 0.61099567 0.60953422]
