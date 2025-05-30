@@ -17,7 +17,7 @@ warnings.filterwarnings('ignore')
 # Use correct file paths for train and test
 train_path = 'big_mart_sales/data/processed/train_v9rqX0R.csv'
 test_path = 'big_mart_sales/data/processed/test_AbJTz2l.csv'
-
+ 
 # Load training data
 data = pd.read_csv(train_path)
 
